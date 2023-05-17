@@ -1,3 +1,3 @@
---0-list_databases
+-- 0-list_databases
 
 SHOW DATABASES;
