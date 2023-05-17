@@ -8,6 +8,8 @@ SELECT
   Shutdown_priv, Process_priv, File_priv, Grant_option, Super_priv, Create_user_priv,
   Create_tablespace_priv
 FROM
-  mysql.user
+  users
 WHERE
   User IN ('user_0d_1', 'user_0d_2')
+  AND Host = 'localhost';
+
